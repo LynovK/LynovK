@@ -1,6 +1,6 @@
 <div style="display: flex; align-items: center; gap: 40px;">
   <img 
-    src="https://raw.githubusercontent.com/username/repo/main/images/photo.jpg" 
+    src="https://github.com/LynovK/SALANKA/blob/main/mipt_logo.png" 
     width="300" 
   />
   
