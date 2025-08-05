@@ -1,5 +1,5 @@
 <div style="display: flex; align-items: center; gap: 20px;">
-  <img src="/Users/lynovn/Documents/mipt logo.png" width="300" />
+  <img src="/Users/lynovn/Documents/mipt_logo.png" width="300" />
   <div>
     <h3>Заголовок</h3>
     <p>Текст будет справа, выровнен по центру вертикально.</p>
