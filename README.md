@@ -1,14 +1,4 @@
-<div style="display: flex; align-items: center; gap: 20px;">
-  <img src="/Users/lynovn/Documents/mipt_logo.png" width="300" />
-  <div>
-    <h3>Заголовок</h3>
-    <p>Текст будет справа, выровнен по центру вертикально.</p>
-    <ul>
-      <li>Пункт 1</li>
-      <li>Пункт 2</li>
-    </ul>
-  </div>
-</div>
+<img src="/Users/lynovn/Documents/mipt_logo.png" width="300" style="float: left; margin-right: 20px;" />
 
 [![codewars](https://www.codewars.com/users/LynovK/badges/large)](https://www.codewars.com/users/LynovK)  
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=lynovk" alt="lynovk" /></a> </p>
