@@ -1,5 +1,5 @@
 <img 
-  src="https://raw.githubusercontent.com/username/repo/main/images/photo.jpg" 
+  src="[https://raw.githubusercontent.com/username/repo/main/images/photo.jpg](https://github.com/LynovK/SALANKA/blob/main/mipt_logo.png)" 
   width="300" 
   style="float: left; margin-right: 20px;"
 />
