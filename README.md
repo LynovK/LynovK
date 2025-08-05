@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Nikolai</h1>
 <h3 align="center">A passionate ML developer from Russia</h3>
 
-![Snake animation](https://github.com/LynovK/LynovK/blob/output/github-snake.svg) 
+[![codewars](https://www.codewars.com/users/LynovK/badges/large)](https://www.codewars.com/users/LynovK)  
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=lynovk" alt="lynovk" /></a> </p>
 
 - 📫 How to reach me: telegram **@lynovn**
