@@ -1,7 +1,7 @@
 <div style="display: flex; align-items: center; gap: 40px;">
   <img 
     src="https://github.com/LynovK/SALANKA/blob/main/mipt_logo.png" 
-    width="500" 
+    width="300" 
     style="transform: translate(-10px, +70px);" 
   />
   
