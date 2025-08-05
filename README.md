@@ -1,7 +1,8 @@
 <div style="display: flex; align-items: center; gap: 40px;">
   <img 
     src="https://github.com/LynovK/SALANKA/blob/main/mipt_logo.png" 
-    style="height: 200px; width: auto; object-fit: cover; border-radius: 8px;"
+    width="300" 
+    style="float: left; margin-right: 40px;"
   />
   
   <a href="https://git.io/typing-svg">
