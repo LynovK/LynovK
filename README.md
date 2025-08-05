@@ -9,10 +9,10 @@
   </a>
 </div>
 
-<div style="display: flex; align-items: center; justify-content: center; gap: 40px; height: 220px;">
+<div style="display: flex; align-items: center; justify-content: center; gap: 40px; height: 150px;">
   <img 
     src="https://github.com/LynovK/SALANKA/blob/main/mipt_logo.png" 
-    style="height: 150px; width: auto; object-fit: contain;"
+    style="height: 150px; width: auto;"
   />
   
   <div style="display: flex; align-items: center; height: 100%;">
