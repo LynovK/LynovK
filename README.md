@@ -1,4 +1,8 @@
-<img src="/Users/lynovn/Documents/mipt_logo.png" width="300" style="float: left; margin-right: 20px;" />
+<img 
+  src="https://raw.githubusercontent.com/username/repo/main/images/photo.jpg" 
+  width="300" 
+  style="float: left; margin-right: 20px;"
+/>
 
 [![codewars](https://www.codewars.com/users/LynovK/badges/large)](https://www.codewars.com/users/LynovK)  
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=lynovk" alt="lynovk" /></a> </p>
