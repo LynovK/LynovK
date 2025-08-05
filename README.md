@@ -1,14 +1,14 @@
-<div align="center">
-  <img src="[https://ссылка-на-ваше-изображение.png](https://repository-images.githubusercontent.com/185024591/36fd0d80-3a3a-11eb-8827-61ac56b5e9dc)" width="400" align="left" style="margin-right: 20px;" />
-  <div align="left">
-    <h2>Заголовок</h2>
-    <p>href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Michroma&size=28&duration=700&pause=100&color=0069B4&background=BD69E300&center=true&vCenter=true&multiline=true&repeat=false&width=900&height=200&lines=Hi%2C+i+am+Nikolai;MIPT+BS+ASTECH+25';MIPT+MSc+FPMI+27';ML+developer+from+mother+Russia" alt="Typing SVG".</p>
+<div style="display: flex; align-items: center; gap: 20px;">
+  <img src="/Users/lynovn/Documents/mipt_logo.png" width="300" />
+  <div>
+    <h3>Заголовок</h3>
+    <p>Текст будет справа, выровнен по центру вертикально.</p>
     <ul>
       <li>Пункт 1</li>
       <li>Пункт 2</li>
     </ul>
   </div>
-
+</div>
 
 [![codewars](https://www.codewars.com/users/LynovK/badges/large)](https://www.codewars.com/users/LynovK)  
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=lynovk" alt="lynovk" /></a> </p>
