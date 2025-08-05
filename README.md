@@ -8,6 +8,8 @@
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Michroma&size=26&duration=550&pause=50&color=0069B4&background=BD69E300&center=true&vCenter=true&multiline=true&repeat=false&width=400&height=200&lines=Hi%2C+i+am+Nikolai;MIPT+BS+ASTECH+25';MIPT+MSc+FPMI+27';ML+developer;from+mother+Russia" alt="Typing SVG" /></a>
 </div>
 
+<div align="center"><div style="display:flex;align-items:center;gap:20px"><img src="https://raw.githubusercontent.com/LynovK/SALANKA/main/mipt_logo.png" style="height:150px;width:auto;object-fit:contain"/><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Michroma&size=24&duration=500&pause=50&color=0069B4&background=BD69E300&vCenter=true&multiline=true&width=400&height=100&lines=Hi,+I+am+Nikolai;MIPT+BS+ASTECH+25';MIPT+MSc+FPMI+27';ML+developer;from+Russia" alt="Typing SVG"/></a></div></div>
+
 [![codewars](https://www.codewars.com/users/LynovK/badges/large)](https://www.codewars.com/users/LynovK)  
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=lynovk" alt="lynovk" /></a> </p>
 
