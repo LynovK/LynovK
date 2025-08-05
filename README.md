@@ -2,7 +2,7 @@
   <img 
     src="https://github.com/LynovK/SALANKA/blob/main/mipt_logo.png" 
     width="300" 
-    style="margin-top: -50px; margin-left: 25px;" 
+    style="margin-top: -150px; margin-left: 25px;" 
   />
   
   <a href="https://git.io/typing-svg">
