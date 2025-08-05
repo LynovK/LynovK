@@ -2,6 +2,7 @@
   <img 
     src="https://github.com/LynovK/SALANKA/blob/main/mipt_logo.png" 
     width="300" 
+    style="transform: translate(-10px, -50px);" 
   />
   
   <a href="https://git.io/typing-svg">
@@ -9,16 +10,6 @@
   </a>
 </div>
 
-<div style="display: flex; align-items: center; justify-content: center; gap: 40px; height: 150px;">
-  <img 
-    src="https://github.com/LynovK/SALANKA/blob/main/mipt_logo.png" 
-    style="height: 150px; width: auto;"
-  />
-  
-  <div style="display: flex; align-items: center; height: 100%;">
-    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Michroma&size=23&duration=550&pause=50&color=0069B4&background=BD69E300&center=true&vCenter=true&multiline=true&repeat=false&width=900&height=150&lines=Hi%2C+i+am+Nikolai;MIPT+BS+ASTECH+25';MIPT+MSc+FPMI+27';ML+developer;from+mother+Russia" alt="Typing SVG" /></a>
-  </div>
-</div>
 
 [![codewars](https://www.codewars.com/users/LynovK/badges/large)](https://www.codewars.com/users/LynovK)  
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=lynovk" alt="lynovk" /></a> </p>
