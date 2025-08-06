@@ -14,7 +14,7 @@
 
 ![LeetCode Stats](https://leetcard.jacoblin.cool/LynovK?theme=dark&font=Michroma&ext=contest)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=lynovk&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
 - 📫 How to reach me: telegram **@lynovn**
 
