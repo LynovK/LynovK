@@ -16,7 +16,8 @@
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=lynovk&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
-- 📫 How to reach me: telegram **@lynovn**
+- 📫 How to reach me: [![Telegram](https://img.shields.io/badge/-Telegram-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ваш_username)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/ваш_username)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
