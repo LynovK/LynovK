@@ -1,48 +1,46 @@
 name: Generate Snake
 on:
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-  push:
-    branches: [ main ]
+    - cron: "0 0 * * *"  # Ежедневно в 00:00 UTC
+  workflow_dispatch:     # Разрешить ручной запуск
+
+permissions:
+  contents: write       # Критически важное разрешение
 
 jobs:
-  generate:
+  generate-snake:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write  # Критически важно!
-      
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
-          ref: main
+          fetch-depth: 0  # Полная история коммитов
 
-      - name: Generate Snake
+      - name: Setup output branch
+        run: |
+          # Создаем ветку output если её нет
+          if ! git ls-remote --exit-code --heads origin output; then
+            git checkout --orphan output
+            git rm -rf .
+            echo "# Snake Output Branch" > README.md
+            git add README.md
+            git commit -m "Initialize output branch"
+            git push origin output
+          fi
+
+      - name: Generate snake
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
 
-      - name: Create output branch if not exists
-        run: |
-          if ! git ls-remote --exit-code --heads origin output; then
-            git checkout --orphan output
-            git rm -rf .
-            echo "# Snake Output" > README.md
-            git add README.md
-            git commit -m "Initial commit"
-            git push origin output
-          fi
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Deploy to output branch
+        uses: peaceiris/actions-gh-pages@v3.9.3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
-          force_orphan: true
+          force_orphan: true  # Каждый раз чистая ветка
           keep_files: false
