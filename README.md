@@ -16,18 +16,17 @@
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=lynovk&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
-- 📫 How to reach me: 
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-  <a href="https://t.me/lynovn" target="_blank" style="margin-right: 10px;">
-    <img align="center" src="https://img.shields.io/badge/-Telegram-0088cc?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
+  <a href="https://t.me/lynovn" target="_blank" style="text-decoration: none; margin-right: 15px;">
+    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" height="30"/>
   </a>
-  <a href="https://linkedin.com/in/lynovn" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="lynovn" height="30" width="40" />
+  <a href="https://linkedin.com/in/lynovn" target="_blank" style="text-decoration: none; margin-right: 15px;">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40"/>
   </a>
-  <a href="https://instagram.com/nikolai_1709" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="nikolai_1709" height="30" width="40" />
+  <a href="https://instagram.com/nikolai_1709" target="_blank" style="text-decoration: none;">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="30" width="40"/>
   </a>
 </p>
 
