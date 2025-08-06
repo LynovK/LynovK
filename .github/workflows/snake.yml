@@ -1,48 +1,48 @@
-name: Generate Contribution Snake
-
+name: Generate Snake
 on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
   push:
-    branches:
-      - main
+    branches: [ main ]
 
 jobs:
-  generate-snake:
+  generate:
     runs-on: ubuntu-latest
-    
+    permissions:
+      contents: write  # Критически важно!
+      
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Важно для доступа к другим веткам
+          fetch-depth: 0
+          ref: main
 
-      - name: Generate snake graphics
+      - name: Generate Snake
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Deploy to output branch
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: output
-          folder: dist
-          clean: true
-          token: ${{ secrets.GITHUB_TOKEN }}  # Критически важно!
-          single-commit: true  # Создавать один коммит
-
-      - name: Update README timestamp
-        if: always()
+      - name: Create output branch if not exists
         run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git pull origin main
-          date > last_updated.txt
-          git add last_updated.txt
-          git commit -m "Update snake generation timestamp" || echo "No changes"
-          git push
+          if ! git ls-remote --exit-code --heads origin output; then
+            git checkout --orphan output
+            git rm -rf .
+            echo "# Snake Output" > README.md
+            git add README.md
+            git commit -m "Initial commit"
+            git push origin output
+          fi
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          force_orphan: true
+          keep_files: false
