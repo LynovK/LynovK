@@ -16,11 +16,11 @@
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=lynovk&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
-- 📫 How to reach me: [![Telegram](https://img.shields.io/badge/-Telegram-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/lynovn)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/lynovn)
+- 📫 How to reach me: 
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
+<a[![Telegram](https://img.shields.io/badge/-Telegram-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/lynovn) /<>/a>
 <a href="https://linkedin.com/in/lynovn" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="lynovn" height="30" width="40" /></a>
 <a href="https://instagram.com/nikolai_1709" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="nikolai_1709" height="30" width="40" /></a>
 </p>
