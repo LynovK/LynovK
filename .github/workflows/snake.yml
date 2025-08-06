@@ -1,51 +1,46 @@
-name: Generate Snake (macOS)
+name: Generate Snake
 on:
   schedule:
-    - cron: "0 0 * * *"  # Daily at midnight UTC
-  workflow_dispatch:
+    - cron: "0 */24 * * *"   # Ежедневно в 00:00 UTC
+  workflow_dispatch:     # Разрешить ручной запуск
 
 permissions:
-  contents: write
+  contents: write       # Критически важное разрешение
 
 jobs:
   generate-snake:
-    runs-on: macos-latest  # Используем macOS runner
-    
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0  # Полная история коммитов
 
-      - name: Setup Git LFS (для macOS)
+      - name: Setup output branch
         run: |
-          brew install git-lfs
-          git lfs install
-
-      - name: Create output branch
-        run: |
+          # Создаем ветку output если её нет
           if ! git ls-remote --exit-code --heads origin output; then
             git checkout --orphan output
             git rm -rf .
-            echo "# Snake Output" > README.md
+            echo "# Snake Output Branch" > README.md
             git add README.md
-            git commit -m "Init output branch"
+            git commit -m "Initialize output branch"
             git push origin output
           fi
 
-      - name: Generate snake graphics
+      - name: Generate snake
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark
-            dist/snake-animated.gif?color_snake=blue
 
       - name: Deploy to output branch
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v3.9.3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
-          force_orphan: true
+          force_orphan: true  # Каждый раз чистая ветка
+          keep_files: false
