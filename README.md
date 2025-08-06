@@ -13,7 +13,7 @@
 [![codewars](https://www.codewars.com/users/LynovK/badges/large)](https://www.codewars.com/users/LynovK)  
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=lynovk" alt="lynovk" /></a> </p>
 
-[![LynovK's LeetCode stats](https://leetcode-stats-six.vercel.app/api?username=LynovK&theme=dark)](https://github.com/LynovK/leetcode-stats)
+![LeetCode Stats](https://leetcard.jacoblin.cool/LynovK?theme=dark&font=Michroma&ext=contest)
 
 - 📫 How to reach me: telegram **@lynovn**
 
